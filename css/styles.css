@@ -30,6 +30,14 @@ body {
     color: hsl(234, 14%, 74%);
 }
 
+.switch-box {
+    display: flex;
+    align-items: center;
+    max-width: 220px;
+    justify-content: space-around;
+    margin: auto;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -47,6 +55,7 @@ body {
     background-color: hsl(232, 13%, 33%);
     -webkit-transition: .4s;
     transition: .4s;
+    color: none;
 }
 
 .slider:before {
