@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Nellykels </title>
+
+
+</head>
+
+<body>
+
+    <div>
+
+        <div class="bg-up">
+            <div main-header>
+                <h1 class="pricing">Our Pricing</h1>
+            </div>
+
+            <!--<div>
+                  <div class="pricing-switch">
+                    <h3 class="annual">Annually</h3>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" onclick="myFunction()">
+                        <span class= "slider round"></span>
+                        <input type="hidden" id="switchedplan" value="monthly">
+                      </label>
+                </div>
+                <div>
+                    <h3 class="monthly">Monthly</h3>
+                </div>
+            </div> -->
+            <!--toggle-->
+            <div class="pricing-switch">
+                <div class="switch-box">
+                    <!-- Move input outside of .switch label -->
+                    <input type="checkbox" unchecked id="switch-checkbox" onclick="myFunction()">
+                    <span class="annual">Annual</span>
+                    <!-- Add for attribute that matches id of check input -->
+                    <label class="switch" for="switch-checkbox">
+                            <span class="slider round"></span>
+                            <input type="hidden" id="switchedplan" value="monthly">
+                          </label>
+                    <span class="monthly">Monthly</span>
+                </div>
+            </div>
+            <!--toggle-->
+            <div class="middle-container">
+                <div class="basic">
+                    <h1> Basic</h1>
+                    <h2 id="myBASIC">$199.99</h2>
+                    <hr class="first-line">
+                    <p>500 GB Storage</p>
+                    <hr>
+                    <p>2 Users Allowed</p>
+                    <hr>
+                    <p>Send up to 3GB</p>
+                    <hr>
+                    <button>LEARN MORE</button>
+                </div>
+
+                <div class="prof">
+                    <h1> Professional</h1>
+                    <h2 id="myProf"> $249.99</h2>
+                    <hr class="first-line">
+                    <p>1TB Storage</p>
+                    <hr>
+                    <p>5 Users Allowed</p>
+                    <hr>
+                    <p>Send up to 10GB</p>
+                    <hr>
+                    <button class="prof-button">LEARN MORE</button>
+                </div>
+
+                <div class="master">
+                    <h1> Master</h1>
+                    <h2 id="myMaster"> $399.99</h2>
+                    <hr class="first-line">
+                    <p>2TB Storage</p>
+                    <hr>
+                    <p>10 Users Allowed</p>
+                    <hr>
+                    <p>Send up to 20GB</p>
+                    <hr>
+                    <button>LEARN MORE</button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/nellykels" target="_blank">Nellykels</a>.
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
