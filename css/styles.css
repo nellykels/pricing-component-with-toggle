@@ -206,6 +206,9 @@ button:hover {
     background: hsl(240, 78%, 98%);
     color: hsl(237, 63%, 64%);
     font-weight: bold;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px 50px 10px 50px;
 }
 
 .prof-button:hover {
@@ -255,5 +258,8 @@ hr {
         margin-left: 50px;
         margin-right: 50px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .prof-button {
+        padding: 8px 42px 8px 42px;
     }
 }
