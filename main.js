@@ -5,12 +5,6 @@ function myFunction() {
     let master = document.getElementById("myMaster");
 
     changePrice(basic, professional, master, switchedplan)
-        /*if (x.innerHTML === "$20.99") {
-            x.innerHTML = "$19.99";
-        } else {
-            x.innerHTML = "$20.99";
-        }*/
-
 
 }
 
